@@ -11,7 +11,6 @@ const btn = document.createElement("button");
 section1.append(btn);
 btn.id = "btn-click";
 btn.textContent = "Click Me";
-// const btn = document.getElementById("btn-click");
 
 btn.addEventListener("click", () => {
   const p = document.createElement("p");
@@ -20,8 +19,6 @@ btn.addEventListener("click", () => {
 });
 
 console.log(btn);
-
-
 
 
 
